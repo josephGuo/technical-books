@@ -7,10 +7,11 @@
     "deploy:cf": "pnpm run docs:build && wrangler deploy"
   },
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.12",
-    "wrangler": "^4.44.0"
+    "vitepress": "2.0.0-alpha.17",
+    "wrangler": "^4.83.0"
   },
   "dependencies": {
+    "typescript": "^6.0.3",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
